@@ -1,0 +1,18 @@
+# Exclude downloaded documentation
+milvus_docs/
+milvus_docs_2.4.x_en.zip*
+
+# Exclude Milvus database files
+*.db
+milvus_demo.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
